@@ -16,6 +16,21 @@ pinMode(IN3, OUTPUT);<br/>
 pinMode(IN4, OUTPUT);<br/>
 digitalWrite(ENA, HIGH);<br/>
 digitalWrite(ENB, HIGH);<br/>
+
+Forward();<br/>
+Left_Pivot();<br/>
+Forward();<br/>
+Left_Pivot();<br/>
+Forward();<br/>
+Left_Pivot();<br/>
+Forward();<br/>
+Forward();<br/>
+Right_Pivot();<br/>
+Forward();<br/>
+Right_Pivot();<br/>
+Forward();<br/>
+Right_Pivot();<br/>
+Forward();<br/>
 }<br/>
 void loop() {<br/>
   // put your main code here, to run repeatedly:<br/>
@@ -72,17 +87,4 @@ void Right_Wide() {<br/>
   digitalWrite(IN4, LOW);<br/>
   delay(375);<br/>
 }<br/>
-Forward();<br/>
-Left_Pivot();<br/>
-Forward();<br/>
-Left_Pivot();<br/>
-Forward();<br/>
-Left_Pivot();<br/>
-Forward();<br/>
-Forward();<br/>
-Right_Pivot();<br/>
-Forward();<br/>
-Right_Pivot();<br/>
-Forward();<br/>
-Right_Pivot();<br/>
-Forward();<br/>
+

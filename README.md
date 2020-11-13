@@ -79,7 +79,6 @@ void Left_Wide() {<br/>
   digitalWrite(IN4, HIGH);<br/>
   delay(375);<br/>
 }<br/>
-}<br/>
 void Right_Wide() {<br/>
   digitalWrite(IN1, LOW);<br/>
   digitalWrite(IN2, HIGH);<br/>
